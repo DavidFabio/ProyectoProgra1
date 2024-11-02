@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/pokef/Programacion1/ProyectoProgra1/src</OriginalElement>
+  <nodes>
+    <node x="633.2389991427673" y="-13.507898308485153">dominio.vehiculo</node>
+    <node x="336.5090052910592" y="261.37627788430586">interfaz.factores</node>
+    <node x="300.81136856051245" y="8.425367821930337">aplicacion.Main</node>
+    <node x="-116.8100018124378" y="418.5478559422994">dominio.coche</node>
+    <node x="309.68740824412714" y="616.0463142669984">dominio.moto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dominio.vehiculo" target="interfaz.factores" relationship="REALIZATION">
+      <point x="-155.0" y="69.88417619279099" />
+      <point x="113.0" y="0.0" />
+    </edge>
+    <edge source="dominio.moto" target="dominio.vehiculo" relationship="GENERALIZATION">
+      <point x="-4.0824412712936464E-4" y="-140.50031426699837" />
+      <point x="487.687" y="586.0" />
+      <point x="788.239" y="586.0" />
+      <point x="8.572327487854636E-7" y="284.4998983084852" />
+    </edge>
+    <edge source="dominio.coche" target="dominio.vehiculo" relationship="GENERALIZATION">
+      <point x="181.0000018124378" y="1.944144057700612" />
+      <point x="615.739" y="572.992" />
+      <point x="615.739" y="586.0" />
+      <point x="788.239" y="586.0" />
+      <point x="8.572327487854636E-7" y="284.4998983084852" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.47038626609442064" showDependencies="false" x="699.2308394160639" y="445.6222627737225" />
+  <SelectedNodes>
+    <node>dominio.vehiculo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
