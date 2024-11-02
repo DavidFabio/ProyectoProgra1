@@ -1,7 +1,7 @@
 package dominio;
-import interfaz.movilidad;
+import interfaz.factores;
 
-public abstract class vehiculo implements movilidad{
+public abstract class vehiculo implements factores{
     private String modelo;
     private int numeroderuedas;
     private String motor;
@@ -62,7 +62,11 @@ public abstract class vehiculo implements movilidad{
         System.out.println("Acelerando " + numero + " km/h");
     }
     @Override
-    public void obtenerVelocidad(){
-        System.out.println("La velocidad de este vehiculo es de " + (Math.random() * 200) + " km/h" );
+    public void obtenerVelocidad(long velocidad){
+        System.out.println("La velocidad de este vehiculo es de " + velocidad + " km/h" );
+    }
+    @Override
+    public void obtenerPrecio(long precio){
+        System.out.println("Su precio es de " + precio + " euros");
     }
 }

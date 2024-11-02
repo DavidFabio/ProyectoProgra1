@@ -30,7 +30,7 @@ public class moto extends vehiculo {
         System.out.println("Deteniendo moto");
     }
     @Override
-    public void obtenerVelocidad(){
-        System.out.println("La velocidad de esta moto es de " + (Math.random() * 200) + " km/h" );
+    public void obtenerVelocidad(long velocidad){
+        System.out.println("La velocidad de esta moto es de " + velocidad + " km/h" );
     }
 }

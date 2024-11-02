@@ -48,7 +48,7 @@ public class coche extends vehiculo {
         System.out.println("Deteniendo coche");
     }
     @Override
-    public void obtenerVelocidad(){
-        System.out.println("La velocidad de este coche es de " + (Math.random() * 200) + " km/h" );
+    public void obtenerVelocidad(long velocidad){
+        System.out.println("La velocidad de este coche es de " + velocidad + " km/h" );
     }
 }
